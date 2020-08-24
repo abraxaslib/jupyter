@@ -1,4 +1,4 @@
-FROM abraxaslib/miniconda:latest
+FROM fearoht/miniconda:latest
 WORKDIR /jupyter
 RUN pip install --upgrade pip
 RUN pip3 install jupyter -U && pip3 install jupyterlab
